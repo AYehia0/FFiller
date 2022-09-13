@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "Auto Fake Filler",
+  "version": "1.0",
+  "description": "Auto Fills Register Forms With Fake Working Data :D",
+  "homepage_url": "https://github.com/AYehia0/",
+  "icons": {
+    "48": "icons/beasts-48.png"
+  },
+  "permissions": [
+    "activeTab",
+    "activeTab", 
+    "<all_urls>"
+  ],
+  "browser_action": {
+    "default_icon": "icons/icon-48.png",
+    "default_title": "Auto Fill",
+    "default_popup": "popup/popup.html"
+  }
+}
+
